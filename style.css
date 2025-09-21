@@ -589,3 +589,184 @@ nav button {
   font-size: small;
   color: #707378;
 }
+
+
+
+/* ---------------- Responsive Styles ---------------- */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container {
+    padding: 2rem;
+    height: auto;
+  }
+
+  .group {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .group-box1 {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .scan {
+    position: static;
+    margin: 2rem auto;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 20px;
+    gap: 2rem;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .group1box1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .container3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doc2 img {
+    height: auto;
+    width: 90%;
+  }
+
+  .group-box6 {
+    width: 90%;
+    height: auto;
+  }
+
+  .doc-pic,
+  .doc-pic1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .all-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+  }
+
+  .cont-1 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #book-txt {
+    width: 90%;
+  }
+
+  .menu4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .divider,
+  .divider1 {
+    width: 90%;
+  }
+
+  .last-part1,
+  .last-part2 {
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: static;
+    margin: 10px 0;
+  }
+}
+
+/* Mobiles (max-width: 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .group-box1 h1 {
+    font-size: 32px;
+  }
+
+  .group-box1 p {
+    font-size: 14px;
+  }
+
+  .key,
+  .key2 {
+    position: static;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .box h1 {
+    font-size: 24px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .group1-box h1 {
+    font-size: 22px;
+  }
+
+  .all-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .health h1 {
+    font-size: 24px;
+  }
+
+  #book {
+    font-size: 24px;
+  }
+
+  .menu4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-1,
+  .footer-2 {
+    text-align: center;
+  }
+}
